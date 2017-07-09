@@ -1,0 +1,3 @@
+Bolt Skeleton Theme
+===================
+
