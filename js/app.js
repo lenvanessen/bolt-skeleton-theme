@@ -1,1 +1,1 @@
-$(document).foundation();
+// Place script here.
