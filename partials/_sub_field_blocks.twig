@@ -33,7 +33,7 @@
 
     {# Image fields #}
     {% if fieldtype == "image" %}
-        {{ popup(value, 1200, 0) }}
+        {{ value|showimage('684') }}
     {% endif %}
 
     {# Video fields #}
