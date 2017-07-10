@@ -1,7 +1,7 @@
 {% set link = pager.makelink() %}
 
 {% if pager.totalpages > 1 %}
-<div class="pagination text-center {{class}}">
+<div class="pagination {{class}}">
   <ul class="pagination">
 {# 'first' and 'prev' #}
 {% if pager.current > 1 and class!="narrow" %}

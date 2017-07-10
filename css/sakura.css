@@ -177,3 +177,13 @@ label, legend, fieldset {
   color: #888;
   font-size: 0.9em;
 }
+
+ul.pagination li {
+  list-style-type: none;
+  display: inline;
+  color: #999;
+}
+
+ul.pagination li+li:before {
+  content: " | ";
+}
